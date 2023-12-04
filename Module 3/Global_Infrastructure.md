@@ -14,3 +14,6 @@ When it come to select a region, it have 4 points of consideration.
     - Selecting a region that's close to customers
     - content can be send to customers faster
 3. Availability services within a region
+    - Certain services only available in certain region
+4. Pricing
+    - same services in different region may have different pricing
