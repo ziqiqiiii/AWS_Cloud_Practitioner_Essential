@@ -1,4 +1,4 @@
-### Global  && Reliability
+### Global Infrastructure && Reliability
 ****
 - [ ] Benefits of the AWS Global Infrastructure
 - [ ] Basic concept of Availability Zones
