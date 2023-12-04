@@ -7,7 +7,7 @@
 
 ****
 ### Points of consideration to choose an AWS Region
-    When it come to select a region, it have 4 points of consideration.
+When it come to select a region, it have 4 points of consideration.
 1. Compliance with data governance and legal 
     - some compnay requires all of its data reside within certain region, UK for example.
 2. Proximity to the customers
@@ -20,9 +20,11 @@
 
 ### Availability Zones
 
-    An Availability Zone (AZ) is a single data center or a group of data centers within a Region.
+An Availability Zone (AZ) is a single data center or a group of data centers within a Region.
 
-    Best practice for customers is to run applications across at least tow Availability Zones in a Region. So that when an Availability Zone fail, the application is running on the other Availability Zone(s).
+Best practice for customers is to run applications across at least tow Availability Zones in a Region. So that when an Availability Zone fail, the application is running on the other Availability Zone(s).
 
 ### Edge Location 
-    a site that Amazon CloudFront(AWS CDN) uses to store cached copies of your content closer to your customers for faster delivery.
+a site that Amazon CloudFront(AWS CDN) uses to store cached copies of your content closer to your customers for faster delivery.
+
+Content Delivery Network (https://www.youtube.com/watch?v=Bsq5cKkS33I)
