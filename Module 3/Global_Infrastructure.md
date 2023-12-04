@@ -1,4 +1,4 @@
-## Global Infrastructure && Reliability
+# Global Infrastructure && Reliability
 ****
 - [ ] Benefits of the AWS Global Infrastructure
 - [ ] Basic concept of Availability Zones
@@ -6,7 +6,7 @@
 - [ ] Different methofs for provisioning AWS services
 
 ****
-#### Points of consideration to choose an AWS Region
+### Points of consideration to choose an AWS Region
 When it come to select a region, it have 4 points of consideration.
 1. Compliance with data governance and legal 
     - some compnay requires all of its data reside within certain region, UK for example.
@@ -18,7 +18,7 @@ When it come to select a region, it have 4 points of consideration.
 4. Pricing
     - same services in different region may have different pricing
 
-#### Availability Zones
+### Availability Zones
 
 An Availability Zone (AZ) is a single data center or a group of data centers within a Region.
 
