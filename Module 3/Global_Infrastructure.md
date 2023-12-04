@@ -9,5 +9,5 @@
 
 When it come to select a region, it have 4 points of consideration.
 ##### 1. Compliance with data governance and legal 
-1.Compliance with data governance and legal 
+1. Compliance with data governance and legal 
 2. Proximity to the curstomers
