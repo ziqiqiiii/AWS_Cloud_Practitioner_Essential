@@ -8,6 +8,9 @@
 ****
 
 When it come to select a region, it have 4 points of consideration.
-##### 1. Compliance with data governance and legal 
 1. Compliance with data governance and legal 
-2. Proximity to the curstomers
+    - some compnay requires all of its data reside within certain region, UK for example.
+2. Proximity to the customers
+    - Selecting a region that's close to customers
+    - content can be send to customers faster
+3. Availability services within a region
