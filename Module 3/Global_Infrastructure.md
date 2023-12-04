@@ -3,7 +3,7 @@
 - [ ] Benefits of the AWS Global Infrastructure
 - [ ] Basic concept of Availability Zones
 - [ ] Benefits of Amazon CloudFront and Edge locations
-- [ ] Different methofs for provisioning AWS services
+- [ ] Different methods for provisioning AWS services
 
 ****
 ### Points of consideration to choose an AWS Region
@@ -30,3 +30,18 @@ Best practice for customers is to run applications across at least tow Availabil
 a site that Amazon CloudFront(AWS CDN) uses to store cached copies of your content closer to your customers for faster delivery.
 
 [Content Delivery Network Youtube video](/https://www.youtube.com/watch?v=Bsq5cKkS33I)
+
+---
+### Methods of Provisioning AWS
+Interact with all the AWS services through API calls
+**Ways to interact with AWS services**
+
+1. AWS Management Console
+    - web-based interface for accessing and managing AWS services.
+2. AWS Command Line Interface
+    - automate the actions that your services and applications perform through scripts.
+    - automate the actions that your services and applications perform through scripts.
+3. AWS Software Development Kits
+    - SDKs make it easier for you to use AWS services through an API designed for your programming language or platform.
+    - SDKs enable you to use AWS services with your existing applications or create entirely new applications that will run on AWS.
+
