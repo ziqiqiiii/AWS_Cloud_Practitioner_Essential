@@ -19,7 +19,9 @@ When it come to select a region, it have 4 points of consideration.
     - same services in different region may have different pricing
 
 ---
-### Availability Zones
+### Region && Availability Zones
+
+A Region consists of three of more Availability Zones.
 
 An Availability Zone (AZ) is a single data center or a group of data centers within a Region.
 
@@ -28,6 +30,8 @@ Best practice for customers is to run applications across at least tow Availabil
 ---
 ### Edge Location 
 a site that Amazon CloudFront(AWS CDN) uses to store cached copies of your content closer to your customers for faster delivery.
+
+AWS Outposts extend AWS infracture and services to different locations including user's on permises data center.
 
 [Content Delivery Network Youtube video](/https://www.youtube.com/watch?v=Bsq5cKkS33I)
 
@@ -39,10 +43,11 @@ Interact with all the AWS services through API calls
 
 1. AWS Management Console
     - web-based interface for accessing and managing AWS services.
+    - includes wizards and workflows that user can use to complete tasks in AWS services
 2. AWS Command Line Interface
     - automate the actions that your services and applications perform through scripts.
-    - automate the actions that your services and applications perform through scripts.
 3. AWS Software Development Kits
+    - SDKs enable user to develop AWS application in supported programming langauges.
     - SDKs make it easier for you to use AWS services through an API designed for your programming language or platform.
     - SDKs enable you to use AWS services with your existing applications or create entirely new applications that will run on AWS.
 
