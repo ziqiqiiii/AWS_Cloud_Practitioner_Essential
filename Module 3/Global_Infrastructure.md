@@ -27,5 +27,4 @@ Best practice for customers is to run applications across at least tow Availabil
 ### Edge Location 
 a site that Amazon CloudFront(AWS CDN) uses to store cached copies of your content closer to your customers for faster delivery.
 
-[Content Delivery Network] 
-(/https://www.youtube.com/watch?v=Bsq5cKkS33I)
+[Content Delivery Network](/https://www.youtube.com/watch?v=Bsq5cKkS33I)
