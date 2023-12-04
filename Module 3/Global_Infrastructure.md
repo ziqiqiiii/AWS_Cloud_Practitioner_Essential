@@ -1,9 +1,9 @@
 # Global Infrastructure && Reliability
 ****
-- [ ] Benefits of the AWS Global Infrastructure
-- [ ] Basic concept of Availability Zones
-- [ ] Benefits of Amazon CloudFront and Edge locations
-- [ ] Different methods for provisioning AWS services
+- [X] Benefits of the AWS Global Infrastructure
+- [X] Basic concept of Availability Zones
+- [X] Benefits of Amazon CloudFront and Edge locations
+- [X] Different methods for provisioning AWS services
 
 ****
 ### Points of consideration to choose an AWS Region
@@ -46,3 +46,16 @@ Interact with all the AWS services through API calls
     - SDKs make it easier for you to use AWS services through an API designed for your programming language or platform.
     - SDKs enable you to use AWS services with your existing applications or create entirely new applications that will run on AWS.
 
+**AWS Management tools to provision AWS services**
+
+1. AWS Elastic Beanstalk
+    - User provide code and configuration settings
+    - Elastic Beanstalk deploys the resources to perfecm the following task:
+        - Adjust capacity
+        - Load Balancing
+        - Automatic Scaling
+        - Application health monitoring
+
+2. AWS CloudFormation
+    - User can treat the infrastructure aas code
+    - User can build an environment by writing lines of code instead of using the console to provision the resources individually
