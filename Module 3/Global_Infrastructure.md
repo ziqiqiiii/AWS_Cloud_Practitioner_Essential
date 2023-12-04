@@ -25,6 +25,7 @@ An Availability Zone (AZ) is a single data center or a group of data centers wit
 
 Best practice for customers is to run applications across at least tow Availability Zones in a Region. So that when an Availability Zone fail, the application is running on the other Availability Zone(s).
 
+---
 ### Edge Location 
 a site that Amazon CloudFront(AWS CDN) uses to store cached copies of your content closer to your customers for faster delivery.
 
