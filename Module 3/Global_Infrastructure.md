@@ -18,6 +18,7 @@ When it come to select a region, it have 4 points of consideration.
 4. Pricing
     - same services in different region may have different pricing
 
+---
 ### Availability Zones
 
 An Availability Zone (AZ) is a single data center or a group of data centers within a Region.
