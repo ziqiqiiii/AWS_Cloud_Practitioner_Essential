@@ -1,4 +1,18 @@
 ## Global Applications in AWS
+---
+
+- [X] Why Global Applications ?
+- [X] Global DNS
+- [X] Amazon Route 53
+- [X] Amazon CloudFront
+- [X] S3 Transfer Acceleration
+- [X] Amazon Global Accelerator
+- [X] AWS Outposts
+- [X] AWS Wavelengths
+- [X] AWS Local Zones
+
+---
+
 Global application is an application deployed in multiple geograhies
 
 Why make global applications ?
