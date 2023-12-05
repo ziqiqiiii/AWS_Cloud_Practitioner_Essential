@@ -41,15 +41,18 @@
 ---
 
 #### Differences and Similarities between AWS Global Accelerator vs CloudFront
-Similarities                                                              
+Similarities      
+
 |---------------------------------------------------------------------------|
 | - Both use the AWS global network and its edge locations around the world |
 | - Both services integrate with AWS Shield for DDoS protection             |
 
-Differences                                                                            
+Differences  
+
 | CloudFront                                   | Global Accelerator                     |
 |----------------------------------------------|-----------------------------------------|
-| - CDN                                        | 
-| - Improves performance for cacheable content |
-| - Content is served at the Edge Location     |
+| - CDN                                        | - No caching, proxying packets at the edge to applications running in one or more AWS Regions. |
+| - Improves performance for cacheable content | - Improves Performance for a wide range of applications over TCP OR UDP |
+| - Content is served at the Edge Location     | - Good for HTTP use cases that require static IP addresses |
+|                                              | - Good for HTTP use cases that required deterministi, fast regional failover |
 
