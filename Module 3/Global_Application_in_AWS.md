@@ -74,3 +74,30 @@ AWS will setup and manage "Outposts Racks" within clients' on-premises infrastru
 
 ### AWS Wavelength
 AWS Wavelength combines the high bandwidth and ultralow latency of 5G networks with AWS compute and storage services so that developers can innovate and build a new class of applications.
+
+Wavelength Zones are AWS infrastructure deployments that embed AWS compute and storage services within communication service providers' (CSP) 5G networks.
+So, application traffic from 5G devices reach application server running in Wavelength Zones without leaving the telecommunications network.
+This avoid latency which allows customers to take full advantage of the ultra-low-latency and bandwidth benefits offers by modern 5G networks.
+
+**Use Cases**
+- Build media and entertainment applications
+	- High-resolution live video streaming
+	- High-fidelity audio
+	- Augmented / Virtual Reality (AR/VR) applications
+- Accelerate ML inference at the edge
+	- Run AI && ML driven video and images analytics at the edge 
+	- e.g. medical diagnostic, retail, smart factory settings, sport analysis.
+- Develop connected vehicle applications
+	- Advanced driver assistance
+	- autonomous driving
+	- smart city applications
+
+---
+
+### AWS Local Zones
+Places AWS compute storage, database, and other selected AWS services ***closer to end user to lun latency-sensitive applications***
+- Extend your VPC (Virtual Private Cloud) to more locations
+	- Extension of an AWS Region
+- Examples:
+	- AWS Region: Virginia
+	- AWS Local Zone: Boston, Chicago, Dallas, Houston, Miami
