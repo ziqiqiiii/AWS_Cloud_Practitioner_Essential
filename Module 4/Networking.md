@@ -1,12 +1,12 @@
 # Networking
 ****
-- [ ] The basic concepts of Networking
-- [ ] The difference betweeb public and private networking recources
-- [ ] Explain a virtual private gateway using a real life scenario. 
-- [ ] Explain a virtual private network (VPN) using a real life scenario.
-- [ ] The benefit of hybrid deployments
-- [ ] The layers of security used in an IT strategy
-- [ ] The services customers use to interact with AWS Global Network
+- [X] The basic concepts of Networking
+- [X] The difference betweeb public and private networking recources
+- [X] Explain a virtual private gateway using a real life scenario. 
+- [X] Explain a virtual private network (VPN) using a real life scenario.
+- [X] The benefit of hybrid deployments
+- [X] The layers of security used in an IT strategy
+- [X] The services customers use to interact with AWS Global Network
 ****
 
 ### AWS Virtual Private Cloud (VPC)
@@ -51,7 +51,7 @@ In a VPC, subnets can communicate with each other.
 A network ACL is a virtual firewall that controls inbound and outbound traffic at the subnet level.
 
 - Each AWS account includes a default network ACL. When configuring your VPC, you can use your account’s default network ACL or create custom network ACLs. 
-- By default, your account’s default network ACL allows all inbound and outbound traffic, but you can modify it by adding your own rules. 
+- By default, users' account’s ***default*** network ACL ***allows all inbound and outbound traffic***, but you can modify it by adding your own rules. 
 - For custom network ACLs, all inbound and outbound traffic is denied until you add rules to specify which traffic to allow.
 - Additionally, all network ACLs have an explicit deny rule. This rule ensures that if a packet doesn’t match any of the other rules on the list, the packet is denied.
 - ***Stateless packet filtering***
@@ -62,9 +62,11 @@ A network ACL is a virtual firewall that controls inbound and outbound traffic a
 ### Security Groups
 A security group is a virtual firewall that controls inbound and outbound traffic for an Amazon EC2 instance.
 
-- By default, a security group denies all inbound traffic and allows all outbound traffic. 
+- By ***default***, a security group ***denies all inbound traffic and allows all outbound traffic***. 
 - Users can add custom rules to configure which traffic should be allowed; any other traffic would then be denied
 - If users have multiple Amazon EC2 instances within the same VPC, users can associate them with the same security group or use different security groups for each instance.
 - ***Statefull packet filtering***
 	- hey remember previous decisions made for incoming packets.
 	- For example, sending a request out from an Amazon EC2 instance to the internet. When a packet response for that request returns to the instance, the security group remembers your previous request. The security group allows the response to proceed, regardless of inbound security group rules.
+
+---
