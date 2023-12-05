@@ -131,6 +131,7 @@ When it comes to choose which storage service to use, it depends on the use case
 
 | S3 | EBS |
 |----|-----|
+| - Objects storgae     | - Block storage                                 |
 | - Using complete objects  | - Use for complex read, write, change functions |
 | - Only occasional changes |                                                 |
 
