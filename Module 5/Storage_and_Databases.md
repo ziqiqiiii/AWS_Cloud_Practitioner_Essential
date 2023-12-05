@@ -12,4 +12,10 @@
 - [X] Summarize various database services.
 
 ---
-
+| Storage services | Database services                |
+|:----------------:|:--------------------------------:|
+| - EBS            | - RDS                            |
+| - S3             | - DynamoDB                       |
+| - EFS            | - Redshift                       |
+|                  | - AWS Database Migration service |
+---
