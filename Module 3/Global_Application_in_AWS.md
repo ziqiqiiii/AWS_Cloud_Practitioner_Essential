@@ -69,3 +69,8 @@ AWS will setup and manage "Outposts Racks" within clients' on-premises infrastru
 - Data residency 
 - Easier migration from on-premises to the cloud
 - Fully managed service
+
+---
+
+### AWS Wavelength
+AWS Wavelength combines the high bandwidth and ultralow latency of 5G networks with AWS compute and storage services so that developers can innovate and build a new class of applications.
