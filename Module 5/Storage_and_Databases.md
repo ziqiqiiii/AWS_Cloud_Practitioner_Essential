@@ -18,4 +18,11 @@
 | - S3             | - DynamoDB                       |
 | - EFS            | - Redshift                       |
 |                  | - AWS Database Migration service |
+|:-----------------|:---------------------------------|
+---
+
+When running EC2, it stores its data temporary locally on instance store, a block-level storage volumes behave like physical hard drives.
+An instance store is disk storage that's physically attached to the host computer for an EC2 instance, and therefore has the same lifespan as the instance.
+When instance is terminated, users lose any data in the instance sore.
+
 ---
