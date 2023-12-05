@@ -18,7 +18,6 @@
 | - S3             | - DynamoDB                       |
 | - EFS            | - Redshift                       |
 |                  | - AWS Database Migration service |
-|:-----------------|:---------------------------------|
 ---
 
 When running EC2, it stores its data temporary locally on instance store, a block-level storage volumes behave like physical hard drives.
