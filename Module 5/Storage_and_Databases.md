@@ -137,3 +137,12 @@ When it comes to choose which storage service to use, it depends on the use case
 
 ---
 ### Amazon Elastic File System (Amazon EFS)
+In file storage, multiple clients can access data that is stored in shared file folders. 
+In this approach, a storage server uses block storage with a local file system to organize files. 
+Clients access data through file paths.
+
+Compared to block storage and object storage, file storage is ideal for use cases in which a large number of services and resources need to access the same data at the same time.
+
+Amazon Elastic File System (Amazon EFS)(opens in a new tab) is a scalable file system used with AWS Cloud services and on-premises resources. As you add and remove files, Amazon EFS grows and shrinks automatically. It can scale on demand to petabytes without disrupting applications. 
+
+---
