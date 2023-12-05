@@ -41,8 +41,8 @@
 ---
 
 #### Differences and Similarities between AWS Global Accelerator vs CloudFront
-Similarities      
-
+|Similarities                                                               |
+|---------------------------------------------------------------------------|
 | - Both use the AWS global network and its edge locations around the world |
 | - Both services integrate with AWS Shield for DDoS protection             |
 
