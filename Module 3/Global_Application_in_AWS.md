@@ -46,7 +46,7 @@
 | - Both use the AWS global network and its edge locations around the world |
 | - Both services integrate with AWS Shield for DDoS protection             |
 | Differences                                                               |
-|-------------------------------------------------------------------------|
+|:-------------------------------------------------------------------------:|
 | CloudFront                    | Global Accelerator                        |
 |-----------------------------|-----------------------------------------|
 | - CDN |
