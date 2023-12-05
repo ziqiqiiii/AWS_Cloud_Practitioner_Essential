@@ -55,3 +55,17 @@ Differences
 | - Content is served at the Edge Location     | - Good for HTTP use cases that require static IP addresses |
 |                                              | - Good for HTTP use cases that required deterministi, fast regional failover |
 
+---
+
+### AWS Outposts
+
+Some clients use ***Hybrid Cloud***: using both on-premises infrastructure alongside a cloud infrastructure.
+AWS Outposts are "server racks" that offers the same AWS infrastructure, services, APIs, and tools for clients to build their own applications on-premises just as in the cloud.
+AWS will setup and manage "Outposts Racks" within clients' on-premises infrastructure and clients can start leveraging AWS services on-premises
+
+**Benefits**
+- Low-latency access to on-premises systems
+- Local data processing
+- Data residency 
+- Easier migration from on-premises to the cloud
+- Fully managed service
