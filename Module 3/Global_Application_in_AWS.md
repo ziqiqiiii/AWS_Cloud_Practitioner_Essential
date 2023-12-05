@@ -1,10 +1,24 @@
 ## Global Applications in AWS
+Global application is an application deployed in multiple geograhies
+Why make global applications ?
+- Decrease latency
+- Disaster Recovery (DR)
+	- if an AWS Region goes down(earthquake, storms, power shutdown, politics)
+	- Users can fail-over to another region and have their application still working
+	- A DR plan is important to increase the availability of clients' applications
+- Attack protection
+	- Distributed global infrastructure is harder to attack
 
 ---
 ### Global DNS
 **Route 53**
 - Great to route users to the closest deployment with least latency
 - Great for disaster recovery strategies
+- Features available for Route 53:
+	- Domain Registration
+	- DNS
+	- Health Checks
+	- Routing Policy
 
 **What's Amazon Route 53**
 - Route53 is a Managed DNS (Domain Name System)
@@ -15,6 +29,7 @@
 
 1. Simple Routing Policy
 2. Weighted Routing Policy
+	Route Traffic to multiple resources in proportions to users' specification
 3. Latency Routing Policy
 4. Failover Routing Policy (Disaster Recovery)
 
@@ -24,7 +39,7 @@
 - Replicate part of the application to AWS Edge Locations to decrease latency
 - Cache common requests to improved user experience and decrease latency
 - 216 Point of Presence globally (Edge Locations)
-
+- CloudFront integrate WAF && Shield to protect against web attacks
 
 ---
 
