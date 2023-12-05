@@ -34,3 +34,15 @@ A virtual private gateway allows traffic into the VPC only if it is coming from 
 
 ### AWS Direct Connect
 A service that lets you to establish a dedicated private connection between your data center and a VPC.  
+
+---
+### Subnets
+A subnet is a section of a VPC in which you can group resources based on security or operational needs. Subnets can be public or private. 
+In a VPC, subnets can communicate with each other.
+
+|Public Subnet | Private Subnet |
+|:------------:|:--------------:|
+| - contain resources that need to be accessible by the public | - ontain resources that should be accessible only through your private network |
+| - such as an online store’s website. | - such as a database that contains customers’ personal information and order histories. |
+
+---
