@@ -119,5 +119,13 @@ Amazon Simple Storage Service (Amazon S3)(opens in a new tab) is a service that 
 
 
 ---
+### Block storage vs Object storage
 
+| Object Storage | Block Storage |
+|----------------|---------------|
+|- Object storage treats any file as a complete, discreet object. Now this is great for documents, and images, and video files that get uploaded and consumed as entire objects, but every time there's a change to the object, you must re-upload the entire file. There are no delta updates. | - Block storage breaks those files down to small component parts or blocks. This means, for that 80-gigabyte file, when you make an edit to one scene in the film and save that change, the engine only updates the blocks where those bits live. |
+---
 ### Comparing Amazon EBS and Amazon S3
+
+When it comes to choose which storage service to use, it depends on the use case.
+
