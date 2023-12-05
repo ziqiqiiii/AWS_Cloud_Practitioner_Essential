@@ -45,8 +45,15 @@ Amazon Simple Storage Service (Amazon S3)(opens in a new tab) is a service that 
 
 - Any type of file can be uploaded to Amazon S3:
     - images, videos, text files
+- Data store as objects in the bucket (it's like file in the directory, although the bucket isn't a directory)
+    - Oject consists of data, metadata, and a key.
+    - The key is the FULL path (prefix + object name):
+        - s3://my-bucket/my_file.txt
+        - s3://my-bucket/my_folder/another_folder/my_file.txt
+    - Object values are the content of the body
+    - Metadata are a list of text of key-values pairs
 - Amazon S3 offers unlimited storage space
-- The maximum file size for an object in Amazon S3 is 5TB
+- The maximum file size for an object in Amazon S3 is 5TB. If a file is more than 5GB, must use "multi-part upload"
 - Can set permissions to control visibility and access to it.
 - Can also use the Amazon S3 versioning feature to track changes of objects over time.
 - When choosing an storage class, two factors is considered:
@@ -54,13 +61,59 @@ Amazon Simple Storage Service (Amazon S3)(opens in a new tab) is a service that 
     - How available you need your data to be ? 
 - Amazon S3 storage classes:
     1. **S3 Standard**
+        - Used for frequently accessed data
+        - Low latency and high throughput
+        - Can sustain 2 concurrent facility failures
+        - Use cases: Big Data analytics, mobile & gaming applications, content distribution
+
     2. **S3 Standard-Infrequent A (S3 Standard-IA)**
+        - For data that's less frequently accessed, but requires rapid access when needed
+        - Lower cost than S3 Standard
+        - use cases: Disaster Recovery, backups
+
     3. **S3 One Zone-Infrequent Access (S3 One Zone-IA)**
+        - High durability in a single AZ; data lost when AZ is destroyed
+        - 99.5% availability (Lower availability)
+        - use cases: storing secondary backup copies of on-premise data, or data that you can recreate
+
     4. **S3 Intelligent-Tiering**
+        - Moves objects automatically between Access Tiers based on usage
+        - Small monthly monitoring and auto-tiering fee
+        - No retrieval charges in S3 intelligent-Tiering
+        - Different tiers:
+            - Frequent Access tier (automatic): default tier
+            - Infrequent Access tier (automatic): objects not accessed for 30 days
+            - Archive Access tier (automatic): objects not accessed for 90 days
+            - Archive Access tier (optional): configurable from 90 days to 700+ days
+            - Deep Archive Access tier (optimal): config from 180 days to 700 days
+        
     5. **S3 Glacier Instant Retrieval**
+        - Low-cost object storage meant for archiving/ backup
+        - Pricing: price for storage + object retrieval cost
+        - Millisecond retrieval, great for data accessed once a quarter
+        - Minimum storage duration of 90 days
+
     6. **S3 Glacier Flexible Retrieval**
+        - Low-cost object storage meant for archiving/ backup
+        - Pricing: price for storage + object retrieval cost
+        - Expedited (1 to 5 minutes), Standard (3 to 5 hours), Bulk(5 to 12 hours)[Free]
+        - Minimum storage duration of 90 days
+
     7. **S3 Glacier Deep Archive**
+        - Low-cost object storage meant for archiving/ backup
+        - Pricing: price for storage + object retrieval cost
+        - For long term storage
+        - Standard (12 hours), Bulk(48 hours)
+        - Minimum Duration of 180 days
+
     8. **S3 Outposts**
+- S3 Durability && Availability 
+    - Durability 
+        - AWS S3 is high durability (99.999999999%, 11 9's) of objects across multiple AZ
+        - Same for all storage classes
+    - Availability
+        - Varies depending on the storage class
+
 
 ---
 
