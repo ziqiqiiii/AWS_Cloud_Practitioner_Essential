@@ -1,5 +1,6 @@
 ## Global Applications in AWS
 Global application is an application deployed in multiple geograhies
+
 Why make global applications ?
 - Decrease latency
 - Disaster Recovery (DR)
