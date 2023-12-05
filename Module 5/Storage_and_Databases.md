@@ -129,3 +129,10 @@ Amazon Simple Storage Service (Amazon S3)(opens in a new tab) is a service that 
 
 When it comes to choose which storage service to use, it depends on the use case.
 
+| S3 | EBS |
+|----|-----|
+| - Using complete objects  | - Use for complex read, write, change functions |
+| - Only occasional changes |                                                 |
+
+---
+### Amazon Elastic File System (Amazon EFS)
