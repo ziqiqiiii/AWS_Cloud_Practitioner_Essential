@@ -107,6 +107,9 @@ Amazon Simple Storage Service (Amazon S3)(opens in a new tab) is a service that 
         - Minimum Duration of 180 days
 
     8. **S3 Outposts**
+        - Creates S3 buckets on Amazon S3 Outposts
+        - Makes it easier to retrieve, store, and access data on AWS Outposts
+    
 - S3 Durability && Availability 
     - Durability 
         - AWS S3 is high durability (99.999999999%, 11 9's) of objects across multiple AZ
