@@ -47,6 +47,7 @@
 | - Both services integrate with AWS Shield for DDoS protection             |
 
 | Differences                                                                            |
+|:--------------------------------------------------------------------------------------:|
 | CloudFront                                    | Global Accelerator                     |
 |----------------------------------------------|-----------------------------------------|
 | - CDN                                        | 
