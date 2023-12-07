@@ -200,3 +200,23 @@ Amazon DynamoDB(opens in a new tab) is a key-value database service. It delivers
 | - You control the data, you control the schema, you control the network. | -  It has massive throughput. It has petabyte scale potential. It has granular API access. |
 
 ---
+### Amazon Redshift
+Amazon Redshift(opens in a new tab) is a data warehousing service that you can use for big data analytics. It offers the ability to collect data from many sources and helps you to understand relationships and trends across your data. This service is beneficial for big data historical anaylitics.
+
+---
+### Amazon Database Migration Service
+AWS Database Migration Service (AWS DMS)(opens in a new tab) enables you to migrate relational databases, nonrelational databases, and other types of data stores.
+
+With AWS DMS, you move data between a source database and a target database. The source and target databases(opens in a new tab) can be of the same type or different types. During the migration, your source database remains operational, reducing downtime for any applications that rely on the database. 
+
+For example, suppose that you have a MySQL database that is stored on premises in an Amazon EC2 instance or in Amazon RDS. Consider the MySQL database to be your source database. Using AWS DMS, you could migrate your data to a target database, such as an Amazon Aurora database.
+
+Other use cases for AWS DMS:
+1. Development and test database migrations
+    Enabling developers to test applications against production data without affecting production users
+2. Database consolidation
+    Combining several databases into a single database
+3. Continuous replication
+    Sending ongoing copies of your data to other target sources instead of doing a one-time migration
+
+---
