@@ -146,3 +146,17 @@ Compared to block storage and object storage, file storage is ideal for use case
 Amazon Elastic File System (Amazon EFS)(opens in a new tab) is a scalable file system used with AWS Cloud services and on-premises resources. As you add and remove files, Amazon EFS grows and shrinks automatically. It can scale on demand to petabytes without disrupting applications. 
 
 ---
+### AWS Storage Cloud Native Options
+
+| Block storage        | File storage | Object storage |
+| ---------------------|--------------|----------------|
+| - EBS                | - EFS        | - S3           |
+| - EC2 instance store |              | - Glacier      |
+
+**AWS Storage Gateway**
+ - Bridging between on-premise data and cloud data
+ - Hybrid storage service to allow on-premises to seamlessly use AWS Cloud.
+
+---
+
+===
