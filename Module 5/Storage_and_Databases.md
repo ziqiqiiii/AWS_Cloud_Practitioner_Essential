@@ -220,3 +220,21 @@ Other use cases for AWS DMS:
     Sending ongoing copies of your data to other target sources instead of doing a one-time migration
 
 ---
+### Additional Database service
+
+There's no one-size-fits-all database.
+
+1. Amazon DocumentDB
+    a document database service that supports MongoDB workloads.
+2. Amazon Neptune
+    a graph database service to build and run applications that work with highly connected datasets
+3. Amazon Quantum Ledger Database (Amazon QLDB)
+    a ledger database service to review a complete history of all the changes that have been made to your application data.
+4. Amazon Managed Blockchain
+    to create and manage blockchain networks with open-source frameworks. 
+5. Amazon ElastiCache
+    adds caching layers on top of your databases to help improve the read times of common requests. 
+6. Amazon DynamoDB Accelerator (DAX) 
+    an in-memory cache for DynamoDB that helps improve response times from single-digit milliseconds to microseconds.
+
+---
