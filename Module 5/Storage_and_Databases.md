@@ -109,7 +109,7 @@ Amazon Simple Storage Service (Amazon S3)(opens in a new tab) is a service that 
     8. **S3 Outposts**
         - Creates S3 buckets on Amazon S3 Outposts
         - Makes it easier to retrieve, store, and access data on AWS Outposts
-    
+- Can move between classes manually or using S3 Lifecycle configuration
 - S3 Durability && Availability 
     - Durability 
         - AWS S3 is high durability (99.999999999%, 11 9's) of objects across multiple AZ
@@ -158,5 +158,45 @@ Amazon Elastic File System (Amazon EFS)(opens in a new tab) is a scalable file s
  - Hybrid storage service to allow on-premises to seamlessly use AWS Cloud.
 
 ---
+### AWS Relationship Database Service 
+In a relational database, data is stored in a way that relates it to other pieces of data. 
+Relational databases use structured query language (SQL) to store and query data. This approach allows data to be stored in an easily understandable, consistent, and scalable way. 
 
-===
+Amazon Relational Database Service (Amazon RDS)(opens in a new tab) is a service that enables you to run relational databases in the AWS Cloud.
+Amazon RDS is a managed service that automates tasks such as hardware provisioning, database setup, patching, and backups.
+Amazon RDS provides a number of different security options. Many Amazon RDS database engines offer encryption at rest (protecting data while it is stored) and encryption in transit (protecting data while it is being sent and received).
+
+**Amazon RDS database engines**
+Amazon RDS is available on six database engines, which optimize for memory, performance, or input/output (I/O). Supported database engines include:
+
+- Amazon Aurora
+- PostgreSQL
+- MySQL
+- MariaDB
+- Oracle Database
+- Microsoft SQL Server
+
+---
+### Amazon DynamoDB
+In a nonrelational database, you create tables. A table is a place where you can store and query data.
+
+Nonrelational databases are sometimes referred to as “NoSQL databases” because they use structures other than rows and columns to organize data. One type of structural approach for nonrelational databases is key-value pairs. With key-value pairs, data is organized into items (keys), and items have attributes (values). You can think of attributes as being different features of your data.
+In a key-value database, you can add or remove attributes from items in the table at any time. Additionally, not every item in the table has to have the same attributes. 
+
+**Amazon DynamoDB**
+Amazon DynamoDB(opens in a new tab) is a key-value database service. It delivers single-digit millisecond performance at any scale.
+- serverless
+    DynamoDB is serverless, which means that you do not have to provision, patch, or manage servers. 
+    You also do not have to install, maintain, or operate software.
+- automatic scaling
+    As the size of your database shrinks or grows, DynamoDB automatically scales to adjust for changes in capacity while maintaining consistent performance. 
+
+---
+### Comparing AmaZon RDS and DynamoDB
+
+| RDS | DynamoDB |
+|-----|----------|
+| - automatic high availability and recovery provided | - able to operate as a global database at the touch of a button |
+| - You control the data, you control the schema, you control the network. | -  It has massive throughput. It has petabyte scale potential. It has granular API access. |
+
+---
