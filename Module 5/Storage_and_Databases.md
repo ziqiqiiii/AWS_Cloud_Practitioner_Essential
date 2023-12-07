@@ -37,7 +37,7 @@ When instance is terminated, users lose any data in the instance sore.
 - Characteristics of EBS:
     - Best for data that requires retention
     - Separate drives from the host computer of an EC2 instance
-
+- EBS volume data store data wihtin a single AZ.
 ---
 ### Amazon Simple Storage Service (S3)
 
@@ -143,7 +143,9 @@ Clients access data through file paths.
 
 Compared to block storage and object storage, file storage is ideal for use cases in which a large number of services and resources need to access the same data at the same time.
 
-Amazon Elastic File System (Amazon EFS)(opens in a new tab) is a scalable file system used with AWS Cloud services and on-premises resources. As you add and remove files, Amazon EFS grows and shrinks automatically. It can scale on demand to petabytes without disrupting applications. 
+Amazon Elastic File System (Amazon EFS) is a scalable file system used with AWS Cloud services and on-premises resources. As you add and remove files, Amazon EFS grows and shrinks automatically. It can scale on demand to petabytes without disrupting applications. 
+
+EFS file system store dataa across multiple AZs.
 
 ---
 ### AWS Storage Cloud Native Options
