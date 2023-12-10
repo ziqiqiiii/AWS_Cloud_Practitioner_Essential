@@ -67,3 +67,13 @@ Compare your current month-to-date balance with the previous month, and get a fo
 
 ---
 ### Consolidated Billing
+Consolidated billing is a feature for AWS Organizations that enables you to receive a single bill for all AWS accounts in your organization. 
+
+The default maximum number of accounts allowed for an organization is 4, but you can contact AWS Support to increase your quota, if needed.
+
+Benefits of consolidated billing:
+1. You can still review itemized charges incurred by each aacount which enables you to have greater transparency into your organization's accounts while still maintaining the convenience of receiving a single monthly bill.
+2. To share bulk discount pricing, Savings Plans, and Reserved Instances across the accounts in your organization. For instance, one account might not have enough monthly usage to qualify for discount pricing. However, when multiple accounts are combined, their aggregated usage may result in a benefit that applies across all accounts in the organization.
+
+---
+### AWS Budgets
