@@ -10,3 +10,14 @@
 - [X] Describe the benefits of AWS Marketplace.
 
 ---
+### AWS Free Tier 
+The AWS Free Tier(opens in a new tab) enables you to begin using certain services without having to worry about incurring costs for the specified period. 
+
+Three types of offers are available: 
+
+- Always Free
+- 12 Months Free
+- Trials
+
+---
+### AWS Pricing Concepts
