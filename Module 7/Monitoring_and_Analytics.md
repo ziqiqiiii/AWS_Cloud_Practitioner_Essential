@@ -15,3 +15,11 @@ Amazon CloudWatch(opens in a new tab) is a web service that enables you to monit
 The CloudWatch dashboard(opens in a new tab) feature enables you to access all the metrics for your resources from a single location.
 
 --- 
+### AWS CloudTrail
+AWS CloudTrail(opens in a new tab) records API calls for your account. The recorded information includes the identity of the API caller, the time of the API call, the source IP address of the API caller, and more. You can think of CloudTrail as a “trail” of breadcrumbs (or a log of actions) that someone has left behind them.
+
+#### CloudTrail Insights
+Within CloudTrail, you can also enable ***CloudTrail Insights***(opens in a new tab). This optional feature allows CloudTrail to automatically detect unusual API activities in your AWS account. 
+
+---
+### AWS Trusted Advisor
