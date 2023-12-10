@@ -55,3 +55,15 @@ For Amazon S3 pricing, consider the following cost components:
     You pay for the storage management features that you have enabled on your account’s Amazon S3 buckets. These features include Amazon S3 inventory, analytics, and object tagging.
 
     ---
+### Billing Dashboard
+Use the AWS Billing & Cost Management dashboard(opens in a new tab) to pay your AWS bill, monitor your usage, and analyze and control your costs.
+
+Compare your current month-to-date balance with the previous month, and get a forecast of the next month based on current usage.
+- View month-to-date spend by service.
+- View Free Tier usage by service.
+- Access Cost Explorer and create budgets.
+- Purchase and manage Savings Plans.
+- Publish AWS Cost and Usage Reports(opens in a new tab).
+
+---
+### Consolidated Billing
