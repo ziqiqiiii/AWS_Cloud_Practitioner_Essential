@@ -96,4 +96,24 @@ An auditing security checklist
 Additionally, the Customer Compliance Center includes an auditor learning path. This learning path is designed for individuals in auditing, compliance, and legal roles who want to learn more about how their internal operations can demonstrate compliance using the AWS Cloud.
 
 ---
-### 
+### Denial-of-Service Attacks
+#### Denial-of-Service Attacks
+A denial-of-service (DoS) attack is a deliberate attempt to make a website or application unavailable to users.
+
+#### Distributed denil-of-service attacks
+A single threat actor targets a website or application from multiple sources.
+
+#### AWS Shield
+AWS Shield is a service that protects applications against DDoS attacks. 
+
+AWS Shield provides two levels of protection: Standard and Advanced.
+1. AWS Shield Standard
+    AWS Shield Standard automatically protects all AWS customers at no cost. It protects your AWS resources from the most common, frequently occurring types of DDoS attacks. 
+
+    As network traffic comes into your applications, AWS Shield Standard uses a variety of analysis techniques to detect malicious traffic in real time and automatically mitigates it. 
+2. AWS Shield Advanced
+    AWS Shield Advanced is a paid service that provides detailed attack diagnostics and the ability to detect and mitigate sophisticated DDoS attacks. 
+
+    It also integrates with other services such as Amazon CloudFront, Amazon Route 53, and Elastic Load Balancing. Additionally, you can integrate AWS Shield with AWS WAF by writing custom rules to mitigate complex DDoS attacks.
+
+    ---
