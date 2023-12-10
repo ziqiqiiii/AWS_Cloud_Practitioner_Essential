@@ -77,3 +77,11 @@ Benefits of consolidated billing:
 
 ---
 ### AWS Budgets
+In AWS Budgets(opens in a new tab), you can create budgets to plan your service usage, service costs, and instance reservations.
+
+The information in AWS Budgets updates three times a day. This helps you to accurately determine how close your usage is to your budgeted amounts or to the AWS Free Tier limits.
+
+In AWS Budgets, you can also set custom alerts when your usage exceeds (or is forecasted to exceed) the budgeted amount.
+
+---
+### AWS Cost Explorer
