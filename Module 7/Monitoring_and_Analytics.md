@@ -39,5 +39,3 @@ For each category:
 - The green check indicates the number of items for which it detected no problems.
 - The orange triangle represents the number of recommended investigations.
 - The red circle represents the number of recommended actions.
-
---- 
